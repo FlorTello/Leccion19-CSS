@@ -3,6 +3,12 @@
 	height: 300px;
 	margin: 2px;
 }
+.select{
+	border-color: blue;
+	border-style: solid;
+	/*text-align: center;*/
+	padding:50px;
+}
 
 .blanco-negro{
 	filter: grayscale(100%);

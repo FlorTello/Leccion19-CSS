@@ -1,7 +1,6 @@
 var img = document.getElementsByClassName('animal');
 var select = document.getElementById('select')
 select.onchange = function(){
-	console.log(select.value);
 	if(select.value == 'orginal'){
 		for (var i = 0; i < img.length; i++) {
 				img[i].classList.add('orginal');
