@@ -1,0 +1,24 @@
+#sign-up{
+	border: 1px dotted black;
+}
+
+#sign-up input{
+	border:2px solid lightblue;
+	background: aliceblue;
+}
+
+#sign-up [type="submit"]{
+	color: white;
+	background: blue;
+}
+/* #sign-up #telephone{
+	box-shadow:none;
+} */
+
+#sign-up [type="tel"]{
+	box-shadow: none;
+}
+
+#sign-up .box-shadow{
+	box-shadow: 5px 5px 1px 3px blue;
+}
