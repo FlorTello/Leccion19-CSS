@@ -1,10 +1,16 @@
 body{
+	background-image: url('http://365psd.com/images/previews/9f5/cartoon-zoo-background-16313.jpg');
 	text-align: center;
 }
+.imgs{
+	width: 90%;
+	margin: 3%;
+}
 .animal {
-	width: 330px;
-	height: 300px;
-	margin: 2px;
+	width: 27%;
+	height: 27%;
+	margin: 1%;
+	border-radius: 14px;
 }
 #select{
 	border: blue solid 1px;
