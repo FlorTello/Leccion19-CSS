@@ -3,7 +3,7 @@ var select = document.getElementById('select')
 var cla;
 //
 select.onchange = function(){
-	if(select.value == 'orginal'){
+	if(select.value == 'original'){
 		cla = "animal original";
 	}
 	if(select.value == 'sepia'){
