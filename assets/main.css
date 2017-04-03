@@ -1,14 +1,19 @@
 body{
+	background-image: url('http://365psd.com/images/previews/9f5/cartoon-zoo-background-16313.jpg');
 	text-align: center;
 }
+.imgs{
+	width: 90%;
+	margin: 3%;
+}
 .animal {
-	width: 330px;
-	height: 300px;
-	margin: 2px;
+	width: 27%;
+	height: 27%;
+	margin: 1%;
+	border-radius: 14px;
 }
 #select{
 	border: blue solid 1px;
-	/*text-align: center;*/
 	padding:10px;
 	margin: 5px;
 }
@@ -16,13 +21,17 @@ body{
 .blanco-negro{
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
 }
 
 .invertir-colores{
+	filter: invert(.8);
 	-webkit-filter: invert(.8);
+	-o-filter: invert(.8);
 }
 
 .sepia{
 	-webkit-filter: sepia(1);
 	filter: sepia(1);
+	-o-filter: sepia(1);
 }
