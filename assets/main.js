@@ -1,36 +1,21 @@
 var img = document.getElementsByClassName('animal');
 var select = document.getElementById('select')
+var cla;
+//
 select.onchange = function(){
 	if(select.value == 'original'){
-		for (var i = 0; i < img.length; i++) {
-				img[i].classList.add('original');
-				img[i].classList.remove('blanco-negro');
-				img[i].classList.remove('invertir-colores');
-				img[i].classList.remove('sepia');
-		}
+		cla = "animal original";
 	}
 	if(select.value == 'sepia'){
-		for (var i = 0; i < img.length; i++) {
-				img[i].classList.remove('blanco-negro');
-				img[i].classList.remove('invertir-colores');
-				img[i].classList.remove('orginal');
-				img[i].classList.add('sepia');
-		}
+		cla = "animal sepia";
 	}
 	if(select.value == 'blanco-negro'){
-		for (var i = 0; i < img.length; i++) {
-				img[i].classList.remove('orginal');
-				img[i].classList.remove('invertir-colores');
-				img[i].classList.remove('sepia');
-				img[i].classList.add('blanco-negro');
-		}
+		cla = "animal blanco-negro";
 	}
 	if(select.value == 'invertir-colores'){
-		for (var i = 0; i < img.length; i++) {
-				// img[i].classList.remove('orginal');
-				// img[i].classList.remove('blanco-negro');
-				// img[i].classList.remove('sepia');
-				img[i].classList.add('invertir-colores');
-		}
+		cla = "animal invertir-colores";
 	}
+		for (var i = 0; i < img.length; i++) {
+				img[i].setAttribute('class',cla);
+		}
 };
