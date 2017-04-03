@@ -1,9 +1,9 @@
 var img = document.getElementsByClassName('animal');
 var select = document.getElementById('select')
 select.onchange = function(){
-	if(select.value == 'orginal'){
+	if(select.value == 'original'){
 		for (var i = 0; i < img.length; i++) {
-				img[i].classList.add('orginal');
+				img[i].classList.add('original');
 				img[i].classList.remove('blanco-negro');
 				img[i].classList.remove('invertir-colores');
 				img[i].classList.remove('sepia');
