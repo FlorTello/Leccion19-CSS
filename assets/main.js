@@ -1,6 +1,7 @@
 var img = document.getElementsByClassName('animal');
 var select = document.getElementById('select')
 var cla;
+
 select.onchange = function(){
 	if(select.value == 'original'){
 		cla = "animal original";
